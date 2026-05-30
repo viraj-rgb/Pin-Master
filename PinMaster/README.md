@@ -72,6 +72,14 @@ On startup, Pin Master attempts to re-pin matching windows that are already open
 
 ## Publish A Production EXE
 
+The repository includes a ready-to-run executable here:
+
+```text
+Release\PinMaster.exe
+```
+
+Users can download that file directly and double-click it. No .NET install is required because it is published as a self-contained app.
+
 Create a self-contained single-file Windows x64 executable:
 
 ```powershell
