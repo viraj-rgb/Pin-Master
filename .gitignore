@@ -1,0 +1,27 @@
+# Build outputs
+bin/
+obj/
+publish/
+*.user
+*.suo
+*.cache
+
+# Local SDK installed for this workspace
+.dotnet/
+
+# IDE and OS files
+.vs/
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+Desktop.ini
+
+# Logs and dumps
+*.log
+*.dmp
+
+# Generated app/package artifacts
+*.msix
+*.appx
+*.nupkg

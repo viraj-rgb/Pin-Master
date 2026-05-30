@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows10.0.18362.0</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>Assets\pin_default.ico</ApplicationIcon>
+    <AssemblyName>PinMaster</AssemblyName>
+    <RootNamespace>PinMaster</RootNamespace>
+    <SupportedOSPlatformVersion>10.0.18362.0</SupportedOSPlatformVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\pin_default.ico" />
+    <None Remove="Assets\pin_active.ico" />
+    <Resource Include="Assets\pin_default.ico" />
+    <Resource Include="Assets\pin_active.ico" />
+  </ItemGroup>
+</Project>
